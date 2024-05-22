@@ -30,3 +30,27 @@ let myObject = {
 const myFunction = function() {
       console.log("Hello World");
 }
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack(primitive), Heap(Non-primitive)
+
+let myYoutubeName = "Sattwik"
+
+let anotherName = "titan"
+anotherName = "chaiAurCode"
+
+console.log(myYoutubeName);//call by value
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@giifle.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "sattwik@google.com"
+
+console.log(userOne.email);//call by reference
+console.log(userTwo.email);
