@@ -93,8 +93,9 @@
 
 // getAllUsers()
 
+
 fetch('https://jsonplaceholder.typicode.com/users')
-.then((res) => {
+  .then((res) => {
     return res.json()
 }).then((data) => {
     console.log(data);
