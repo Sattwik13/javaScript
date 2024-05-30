@@ -48,13 +48,13 @@ const ans = addTwoNumbers(3, 5);
 //     return `${username} just logged in`
 // }
 
-function loginUserMessage(username = "sam") {
-    if(username === undefined) {
-        console.log("Please enter a username");
-        return;
-    }
-    return `${username} just logged in`
-}
+// function loginUserMessage(username = "sam") {
+//     if(username === undefined) {
+//         console.log("Please enter a username");
+//         return;
+//     }
+//     return `${username} just logged in`
+// }
 
 // console.log(loginUserMessage("SATTWIK"));
 // console.log(loginUserMessage());
@@ -82,7 +82,7 @@ const user = {
 }
 
 function handleObject(anyObject) {
-    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+    // console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
 }
 
 // handleObject(user);

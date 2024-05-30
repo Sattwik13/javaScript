@@ -18,3 +18,8 @@ if( googleLoggedIn || gmailLoggedIn)
  {
     console.log(`User logged In`);
  }
+
+ if( googleLoggedIn && gmailLoggedIn)
+   {
+      console.log(`User logged In`);
+   }

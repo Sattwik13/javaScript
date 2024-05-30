@@ -9,14 +9,14 @@ console.log(typeof balance);
 console.log(balance.toString().length);
 console.log(balance.toFixed(3));// precision, using mainly for banking sector
 
-// const otherNumber = 1232.2112
+const otherNumber = 1232.2112
 // const otherNumber = 1232
-const otherNumber = 12.36
+// const otherNumber = 12.36
 console.log(otherNumber.toPrecision(3));
 
 const hundreds = 100000
 console.log(hundreds.toLocaleString());
-console.log(hundreds.toLocaleString('en-In'));// Indian standard
+console.log(hundreds.toLocaleString('en-In'));// Indian standard orientation
 
 
 //+++++++++++++++++++++++++  Maths  ++++++++++++++++++++++++++

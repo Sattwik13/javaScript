@@ -52,5 +52,5 @@ let userOne = {
 let userTwo = userOne;
 userTwo.email = "sattwik@google.com"
 
-console.log(userOne.email);//call by reference
+console.log(userOne.email);//call by reference -> userOne.email value changed
 console.log(userTwo.email);

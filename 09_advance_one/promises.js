@@ -3,7 +3,7 @@
 //     // DB calls, cryptography,  network
 //     setTimeout(function() {
 //         console.log('Async task is complete');
-//         resolve() // -> resolve connection with then
+//      // resolve() // -> resolve connection with then
 //     }, 1000)
 // })
 
@@ -12,7 +12,7 @@
 // })
 
 
-//WithOut take any const
+// --> WithOut take any const
 // new Promise(function(resolve, reject) {
 //     setTimeout(function() {
 //         console.log("Async task 2");
@@ -50,8 +50,8 @@
 // .then((user) => {
 //     console.log(user);
 //     return user.username
-// }).then((Uname) => {
-//     console.log(Uname);
+// }).then((Username) => {
+//     console.log(Username);
 // }).catch(function(err) {
 //     console.log(err);
 // }).finally(() => console.log(`The promise is either resolved or rejected`))
@@ -60,7 +60,7 @@
 // Using try-catch block & promiseFour same work done with other way
 // const promiseFive = new Promise(function(resolve, reject) {
 //     setTimeout(function() {
-//         let error = true;
+//         let error = true; // try false
 //         if(!error) {
 //             resolve({username:"javascript",  password: "123"})
 //         } else {
@@ -94,11 +94,11 @@
 // getAllUsers()
 
 
-fetch('https://jsonplaceholder.typicode.com/users')
-  .then((res) => {
-    return res.json()
-}).then((data) => {
-    console.log(data);
-}).catch((err) => {
-    console.log(err);
-})
+// fetch('https://jsonplaceholder.typicode.com/users')
+//   .then((res) => {
+//     return res.json()
+// }).then((data) => {
+//     console.log(data);
+// }).catch((err) => {
+//     console.log(err);
+// })

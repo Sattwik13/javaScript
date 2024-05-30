@@ -7,14 +7,14 @@
 // chai()
 
 
-// (function chai() { // ->named IIFE
-//     console.log(`DB CONNECTED`);
-// })(); // --> first "()"-> defination & second "()" -> execution & ";" is mandatory beacause it's end invoked fuction
+(function chai() { // ->named IIFE
+    console.log(`DB CONNECTED`);
+})(); // --> first "()"-> defination & second "()" -> execution & ";" is mandatory beacause it's end invoked fuction
 
 
-// ( () => {
-//     console.log(`DB CONNECTED TO`);
-// }) ();
+( () => {
+    console.log(`DB CONNECTED TO`);
+}) ();
 
 
 ((name) => {

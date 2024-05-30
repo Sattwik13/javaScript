@@ -45,7 +45,7 @@ const myObject = {
     'game1': 'NFS',
     'game2': 'Spiderman'
 }
-// -> map isn't iterable in for of loop
-for (const [key, value] of myObject) { 
-    // console.log(key, `:-`, value); // -> error(map isn't iterable in for of loop)
-}
+// -> object isn't iterable in for of loop
+// for (const [key, value] of myObject) { 
+//     console.log(key, `:-`, value); // -> error(object isn't iterable in for of loop)
+// }

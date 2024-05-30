@@ -10,8 +10,8 @@ tinderUser.isLoggedIn = false;
 const regularUser = {
     email: "somgoggle@gmail.com",
     fullName: {
-        firstName: "hitesh",
-        lastName: "choudhary"
+        firstName: "Sattwik",
+        lastName: "Manna"
     }
 }
 
@@ -29,7 +29,7 @@ const obj3 = {5: "a", 6: "b"}
 // console.log(obj4);
 
 const obj4 = {...obj1, ...obj2, ...obj3};
-console.log(obj4);
+// console.log(obj4);
 
 console.log(tinderUser);
 

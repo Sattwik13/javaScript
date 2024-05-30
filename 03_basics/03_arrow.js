@@ -32,9 +32,9 @@ const chai = () => {
     let username ="SATTWIK"
     console.log(this);// -> return empty object
 }
-// chai()
+chai()
 
-// const addTwo = (num1, num2) => {
+// const addTwo = (num1, num2) => { // -> num1, num2 is parameter
 //     return num1 + num2;
 // }
 

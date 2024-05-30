@@ -1,26 +1,26 @@
 const userEmail = "0";
 
 if(userEmail) {
-    console.log("Got user Email");
+    // console.log("Got user Email");
 }
 else {
-    console.log("Don't have user email");
+    // console.log("Don't have user email");
 }
 
 // falsy values ->
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+//                false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 // Truthly values ->
-// "0", "false", 'false', " ",  [], {}, function(){}
+//                  "0", "false", 'false', " ",  [], {}, function(){}
 
-// if(userEmail.length === 0) {
-//     console.log("Array is empty");
-// }
+if(userEmail.length === 0) {
+    // console.log("Array is empty");
+}
 
 const Obj = {}
 
 if(Object.keys(Obj).length === 0) { // ->object check empty or not
-    console.log("object is emmpty");
+    // console.log("object is empty");
 }
 
 
@@ -32,7 +32,7 @@ let val1;
 // val1 = undefined ?? 10
 val1 = null ?? 10 ?? 20;
 
-// console.log(val1);
+console.log(val1);
 
 
 // Ternary Operator (?)

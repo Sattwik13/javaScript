@@ -13,7 +13,7 @@ console.log(gameName.__proto__);// -> object type
 console.log(gameName.length);
 console.log(gameName.toLowerCase());
 console.log(gameName.charAt(2));
-console.log(gameName.indexOf('T')); // if T use uppercase, use uppercase neither lowercase
+console.log(gameName.indexOf('T')); // if T used uppercase, use uppercase neither lowercase
 
 const newString = gameName.substring(0,4)
 console.log(newString);
@@ -28,7 +28,7 @@ console.log(newStringOne.trim());// trim blank space
 
 const url = "https://Sattwik.com/sattwik%20Manna"
 
-console.log(url.replace('%20', '-')); // replace use
+console.log(url.replace('%20', '-')); // when '%20' present,replace with '-'
 console.log(url.includes('sattwik')); // if sattwik present or not, return true
 
 
@@ -38,10 +38,10 @@ console.log(Mname.split('-'));// convert an array, split by - separator
 
 const str1 = '5';
 
-console.log(str1.padStart(2, '0'));// Expected output: "05"
+console.log(str1.padStart(3, '0'));// Expected output: "05"
 
 const fullNumber = '2034399002125581';
 const last4Digits = fullNumber.slice(-4);
-const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
+const maskedNumber = last4Digits.padStart(fullNumber.length, '*'); // -> padding with '*', padend also be used
 
 console.log(maskedNumber);// --> ************5581
