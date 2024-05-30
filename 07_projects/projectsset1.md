@@ -5,7 +5,7 @@
 
 # Solution code
 
-##  project 1
+##  project 1 code(Color changer)
 
 ```javascript
 console.log("Sattwik")
@@ -35,7 +35,7 @@ button.forEach(function (button) {
 
 ```
 
-## project 2 solution
+## project 2 solution(BMI calculator)
 
 ``` javascript
 
@@ -64,7 +64,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-## project 3 solution code
+## project 3 solution code(DigitalClock)
 
 ```javascript
 const clock = document.getElementById('clock');
@@ -78,7 +78,7 @@ setInterval(function () {
 
 ```
 
-## project 4 solution code
+## project 4 solution code(Guessing Number)
 
 ```javascript
 let randomNumber = parseInt(Math.random() * 100 + 1);
